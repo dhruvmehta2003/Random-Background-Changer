@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(34, 218, 67);
+}
+
+.container{
+    height: 225px;
+    position: relative;
+}
+
+.center{
+    position: absolute;
+    top: 140%;
+    left: 40%;
+    right: 40%;
+    border-radius: 20%;
+}
+
+.center:hover{
+    cursor: pointer; 
+}
+  
+.btn{
+    border: 10px solid transparent;
+    border-radius: 25px;
+    padding: 4px;
+    font-size: larger;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    box-shadow: 5px 10px 16px rgba(0.6, 0.6, 0.6, 0.6);
+}
+
+
+.ab{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    right: 20%;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+  
